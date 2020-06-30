@@ -1,5 +1,11 @@
 import React from "react"
 
+import Layout from "../components/Layout";
+
 export default function ContactUs() {
-  return <div>Contact Us</div>
+  return (
+    <Layout>
+      <div>Contact Us</div>
+    </Layout>
+  )
 }

@@ -1,5 +1,11 @@
 import React from "react"
 
+import Layout from "../components/Layout";
+
 export default function Schedule() {
-  return <div>Schedule</div>
+  return (
+    <Layout>
+      SCHEDULE
+    </Layout>
+  )
 }
