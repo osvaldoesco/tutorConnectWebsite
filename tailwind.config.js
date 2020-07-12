@@ -47,6 +47,9 @@ module.exports = {
         "9xl5": "7.875rem",
         "9xl6": "7.95rem",
       },
+      width: {
+        "44": "11rem",
+      },
       height: {
         "68": "17rem",
         "72": "18rem",

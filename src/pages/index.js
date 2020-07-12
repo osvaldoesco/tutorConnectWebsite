@@ -1,11 +1,16 @@
 import React from "react"
 
 import Layout from "../components/Layout";
+import Hero from "../components/Hero";
+import Tools from "../components/Tools";
+import AboutUs from "../components/AboutUs";
 
 export default function Home() {
   return (
     <Layout>
-      HOME EXAMPLE
+      <Hero />
+      <AboutUs />
+      <Tools />
     </Layout>
   )
 }
