@@ -43,7 +43,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="text-center italic py-5 text-lg text-white font-semibold bg-gray-tc">
-        All rights reserverd. Tutor Connect 2020.
+        All rights reserved. Tutor Connect 2020.
       </div>
     </footer>
   )
