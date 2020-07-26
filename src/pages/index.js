@@ -6,6 +6,8 @@ import Tools from "../components/Tools";
 import AboutUs from "../components/AboutUs";
 import Services from "../components/Services";
 import HowWorks from "../components/HowWorks";
+import Tutors from "../components/Tutors";
+import Subjects from "../components/Subjects";
 
 export default function Home() {
   return (
@@ -14,7 +16,9 @@ export default function Home() {
       <AboutUs />
       <Tools />
       <Services />
+      <Subjects />
       <HowWorks />
+      <Tutors />
     </Layout>
   )
 }
