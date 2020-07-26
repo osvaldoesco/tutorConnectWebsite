@@ -6,8 +6,8 @@ import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons'
 export default function Footer() {
   return (
     <footer style={{backgroundColor: "#F2F2F2"}}>
-      <div className="container mx-auto grid grid-cols-4 py-8 gap-8">
-        <div>
+      <div className="flex flex-wrap container mx-auto">
+        <div className='w-full lg:w-1/4 pb-8 lg:pb-24'>
           <a href="/">
             <img alt="logo" src="../../images/logo.png" className="header-logo" />
           </a>
@@ -27,15 +27,15 @@ export default function Footer() {
             </div>      
           </div>
         </div>
-        <div className="pt-24">
+        <div className="w-full lg:w-1/4 pb-16 lg:pt-24">
           <div className="flex items-center">
-            <div className="text-white bg-gray-tc rounded-full w-8 h-8 ml-6 justify-center items-center flex">
+            <div className="text-white bg-gray-tc rounded-full w-8 h-8 ml-4 lg:ml-6 justify-center items-center flex">
               <FontAwesomeIcon icon={faEnvelope} />
             </div>
             <label className="text-gray-tc text-base ml-4">info@tutorconnect.com</label>
           </div>
           <div className="flex items-center mt-4">
-            <div className="text-white bg-gray-tc rounded-full w-8 h-8 ml-6 justify-center items-center flex">
+            <div className="text-white bg-gray-tc rounded-full w-8 h-8 ml-4 lg:ml-6 justify-center items-center flex">
               <FontAwesomeIcon icon={faPhoneAlt} />
             </div>
             <label className="text-gray-tc text-base ml-4">+ 1 (800) 123-4567</label>

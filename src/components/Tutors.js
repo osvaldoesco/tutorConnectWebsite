@@ -14,8 +14,8 @@ export default function Tutors() {
           </h5>
         </div>
       </div>
-      <div className='flex container mx-auto pt-8'>
-        <div className='w-full lg:w-1/4 px-4'>
+      <div className='flex flex-wrap container mx-auto pt-8'>
+        <div className='w-full lg:w-1/4 px-4 mb-4'>
           <div className='bg-white border border-orange-tc py-8 rounded-8 text-center h-80 px-3'>
             <div className='h-32 flex items-center'>
               <img alt='certified tutors' src='../../images/certified-tutors.png' className='w-24 mx-auto' />
@@ -29,7 +29,7 @@ export default function Tutors() {
             </p>
           </div>
         </div>
-        <div className='w-full lg:w-1/4 px-4'>
+        <div className='w-full lg:w-1/4 px-4 mb-4'>
           <div className='bg-white py-8 border border-orange-tc rounded-8 text-center h-80 px-4'>
             <div className='h-32 flex items-center'>
               <img alt='backgroud-check' src='../../images/background-check.png' className='w-24 mx-auto' />
@@ -43,7 +43,7 @@ export default function Tutors() {
             </p>
           </div>
         </div>
-        <div className='w-full lg:w-1/4 px-4'>
+        <div className='w-full lg:w-1/4 px-4 mb-4'>
           <div className='bg-white py-8 border border-orange-tc rounded-8 text-center h-80 px-4'>
             <div className='h-32 flex items-center'>
               <img alt='observation mode' src='../../images/observation-mode.png' className='w-24 mx-auto' />
@@ -57,7 +57,7 @@ export default function Tutors() {
             </p>
           </div>
         </div>
-        <div className='w-full lg:w-1/4 px-4'>
+        <div className='w-full lg:w-1/4 px-4 mb-4'>
           <div className='bg-white py-8 border border-orange-tc rounded-8 text-center h-80 px-4'>
             <div className='h-32 flex items-center'>
               <img alt='committed' src='../../images/committed.png' className='w-24 mx-auto' />
